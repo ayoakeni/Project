@@ -1,0 +1,25 @@
+/* testimonial-col */
+@media screen and (max-width: 541px) {
+  .testimonial-col {
+    flex-direction: column;
+    padding: 3px;
+  }
+}
+
+/* About Section */
+.about{
+  height: 85vh;
+  margin: auto;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../asset/img/about-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Contact Section */
+.contact{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../asset/img/contact-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
